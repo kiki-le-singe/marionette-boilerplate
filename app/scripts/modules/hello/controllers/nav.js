@@ -12,7 +12,9 @@ function (Marionette, HelloView) {
     },
 
     hello: function () {
-      return this.contentRegion.show(new HelloView());
+      return this.contentRegion.show(new HelloView({
+        index: 1
+      }));
     }
   });
 });

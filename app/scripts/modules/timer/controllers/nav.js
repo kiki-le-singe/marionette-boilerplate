@@ -12,7 +12,9 @@ function (Marionette, TimerView) {
     },
 
     timer: function () {
-      return this.contentRegion.show(new TimerView());
+      return this.contentRegion.show(new TimerView({
+        index: 0
+      }));
     }
   });
 });
