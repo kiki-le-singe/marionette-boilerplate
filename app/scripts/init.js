@@ -17,6 +17,7 @@ require.config({
   paths: {
     // modules
     '#hello': 'modules/hello',
+    '#timer': 'modules/timer',
 
     jquery: '../bower_components/jquery/dist/jquery',
     underscore: '../bower_components/lodash/lodash',
