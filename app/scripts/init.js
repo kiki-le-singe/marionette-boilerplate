@@ -22,6 +22,8 @@ require.config({
 
   paths: {
     // modules
+    '#library': 'modules/library',
+    '#libraries': 'modules/libraries',
     '#hello': 'modules/hello',
 
     jquery: '../bower_components/jquery/dist/jquery',

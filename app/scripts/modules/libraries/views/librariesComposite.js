@@ -1,6 +1,6 @@
 define([
   'marionette',
-  'views/library',
+  '#library/views/library',
   'templates'
 ],
 
@@ -8,7 +8,7 @@ function (Marionette, LibraryItemView, templates) {
   'use strict';
 
   return Marionette.CompositeView.extend({
-    template: templates.libraries,
+    template: templates['libraries/libraries'],
     className: 'libraries row',
     childViewContainer: '.list',
     childView: LibraryItemView,
