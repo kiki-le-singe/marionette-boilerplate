@@ -1,3 +1,14 @@
+<a name"1.8.0"></a>
+## 1.8.0 (2015-05-24)
+
+
+#### Features
+
+* **foundation:**
+  * implements foundation ([7ec28e00](https://github.com/kiki-le-singe/marionette-boilerplate/commit/7ec28e00))
+  * implements foundation ([b6413919](https://github.com/kiki-le-singe/marionette-boilerplate/commit/b6413919))
+
+
 <a name"1.7.1"></a>
 ### 1.7.1 (2015-04-30)
 
