@@ -1,3 +1,12 @@
+<a name"1.9.0"></a>
+## 1.9.0 (2015-05-24)
+
+
+#### Features
+
+* **sass.fonts:** implements fonts:dist task ([3a91b635](https://github.com/kiki-le-singe/marionette-boilerplate/commit/3a91b635))
+
+
 <a name"1.8.0"></a>
 ## 1.8.0 (2015-05-24)
 
