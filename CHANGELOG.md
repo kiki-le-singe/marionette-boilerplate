@@ -1,3 +1,12 @@
+<a name"1.10.0"></a>
+## 1.10.0 (2015-05-24)
+
+
+#### Features
+
+* **modules:** add libraries and library modules ([d4cebce0](https://github.com/kiki-le-singe/marionette-boilerplate/commit/d4cebce0))
+
+
 <a name"1.9.0"></a>
 ## 1.9.0 (2015-05-24)
 
