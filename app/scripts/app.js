@@ -2,8 +2,8 @@ define([
   'marionette',
   'underscore',
   'controllers/nav',
-  'views/rootLayoutView',
-  'views/menuItemView',
+  'views/rootLayout',
+  'views/menu',
   'routers/routers',
   'modules'
 ],

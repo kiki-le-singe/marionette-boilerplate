@@ -1,7 +1,7 @@
 define([
   'backbone',
   'json!config/api.json',
-  'models/libraryModel'
+  'models/library'
 ],
 
 function (Backbone, api, LibraryModel) {

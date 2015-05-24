@@ -1,9 +1,9 @@
 define([
   'marionette',
-  'views/helloWorldItemView',
-  'views/librariesCompositeView',
-  'models/helloWorldModel',
-  'models/librariesCollection'
+  'views/helloWorld',
+  'views/librariesComposite',
+  'models/helloWorld',
+  'models/libraries'
 ],
 
 function (Marionette, HelloWorldItemView, LibrariesCompositeView, HelloWorldModel, LibrariesCollection) {

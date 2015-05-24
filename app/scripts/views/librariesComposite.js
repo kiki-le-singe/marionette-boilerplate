@@ -1,6 +1,6 @@
 define([
   'marionette',
-  'views/libraryItemView',
+  'views/library',
   'templates'
 ],
 
