@@ -9,7 +9,7 @@
 ## Requirements
 
  * [nodejs](http://nodejs.org/)
- * [GruntJS](http://gruntjs.com/) or [Gulp](http://gulpjs.com/) (for now gulp tasks is more advanced)
+ * [GruntJS](http://gruntjs.com/) (temporarily unusable with the current version) or [Gulp](http://gulpjs.com/) (for now gulp tasks is more advanced)
  * [bower](http://bower.io/)
  * [sass](http://sass-lang.com/)
 
