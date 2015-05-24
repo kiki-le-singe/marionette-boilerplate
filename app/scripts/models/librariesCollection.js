@@ -10,6 +10,7 @@ function (Backbone, api, LibraryModel) {
   return Backbone.Collection.extend({
     model: LibraryModel,
     url: api.libraries,
+
     initialize: function () {
       console.log('initialize: librariesCollection');
     }

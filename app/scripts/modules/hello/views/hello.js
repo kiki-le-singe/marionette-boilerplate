@@ -8,6 +8,7 @@ function (Marionette, templates) {
 
   return Marionette.ItemView.extend({
     template: templates['hello/hello'],
+    className: 'row',
 
     initialize: function () {
       console.log('initialize: helloView');

@@ -1,8 +1,7 @@
-@import 'config';
+@import 'settings';
+@import '../../bower_components/foundation/scss/foundation';
+@import '../../bower_components/foundation-icon-fonts/foundation-icons';
 @import 'font-face';
-@import 'timeline';
-
-body {
-  background-color: $black;
-  color: $white;
-}
+@import 'keyframes';
+@import 'ui';
+@import 'media-queries';

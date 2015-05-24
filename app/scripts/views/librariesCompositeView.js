@@ -9,7 +9,8 @@ function (Marionette, LibraryItemView, templates) {
 
   return Marionette.CompositeView.extend({
     template: templates.libraries,
-    childViewContainer: '.libraries',
+    className: 'libraries row',
+    childViewContainer: '.list',
     childView: LibraryItemView,
 
     initialize: function () {

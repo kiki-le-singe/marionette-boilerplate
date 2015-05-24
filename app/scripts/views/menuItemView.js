@@ -8,8 +8,12 @@ function (Marionette, templates) {
 
   return Marionette.ItemView.extend({
     template: templates.menu,
-    tagName: 'menu',
-    id: 'menu',
+    tagName: 'nav',
+    className: 'top-bar',
+    attributes: {
+      'data-topbar': '',
+      role: 'navigation'
+    },
 
     initialize: function () {
       console.log('initialize: menuItemView');
