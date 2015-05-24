@@ -9,7 +9,7 @@
 ## Requirements
 
  * [nodejs](http://nodejs.org/)
- * [GruntJS](http://gruntjs.com/) or [Gulp](http://gulpjs.com/)
+ * [GruntJS](http://gruntjs.com/) or [Gulp](http://gulpjs.com/) (for now gulp tasks is more advanced)
  * [bower](http://bower.io/)
  * [sass](http://sass-lang.com/)
 
@@ -114,6 +114,12 @@ Coming soon...
  * [Handlebars](http://handlebarsjs.com/)
  * [Modernizr](http://modernizr.com/)
 
+## CSS Framework
+
+> The use of Foundation is not mandatory. But if you want used another Framework, don't forget to change gulp/grunt sass task, remove the Foundation initialization in app/scripts/[init, index].js and in [main|settings].scss files.
+
+* [Foundation](http://foundation.zurb.com/)
+
 ## API
 
 By default the root access for the API is http://localhost:9000/api. Available example: http://localhost:9000/api/libraries
@@ -122,13 +128,14 @@ By default the root access for the API is http://localhost:9000/api. Available e
 
 The library used for tests are :
 
+ * [KARMA](http://karma-runner.github.io/)
  * [mocha](http://visionmedia.github.io/mocha/)
  * [sinon](http://sinonjs.org/)
  * [chai](http://chaijs.com/)
 
 ## App configuration
 
-The configuration of the application is located in `/app/config`
+The configuration of the application is located in `/app/scripts/config` and therefore by convention in each modules `/app/scripts/modules/*/config`
 
 ## Handlebars helpers
 
@@ -142,4 +149,3 @@ Handlebars helpers is located in `/app/scripts/helpers`
 ## Tips and tricks
 
  * [mongo-express](https://www.npmjs.org/package/mongo-express): If you use MongoDB, look at this node modules. It's an convenient admin interface for MongoDB.
- * To enjoy livereload don't forget download the chrome plugin. (useless only for the use of Grunt. browsersync coming soon)
