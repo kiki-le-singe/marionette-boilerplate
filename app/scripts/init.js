@@ -50,6 +50,8 @@ require.config({
 
     // Foundation
     foundation: '../bower_components/foundation/js/foundation',
-    'foundation.topbar': '../bower_components/foundation/js/foundation/foundation.topbar'
+    'foundation.topbar': '../bower_components/foundation/js/foundation/foundation.topbar',
+
+    bluebird: '../bower_components/bluebird/js/browser/bluebird',
   }
 });

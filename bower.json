@@ -29,7 +29,8 @@
     "chai": "~2.1.0",
     "sinonjs": "~1.12.2",
     "sinon-chai": "~2.7.0",
-    "chai-jquery": "~2.0.0"
+    "chai-jquery": "~2.0.0",
+    "bluebird": "~2.9.25"
   },
   "directory": "bower_components"
 }
