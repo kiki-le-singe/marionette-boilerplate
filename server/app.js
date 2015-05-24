@@ -14,7 +14,8 @@ var applicationRoot = __dirname,
     bodyParser = require('body-parser'),
     port = process.env.PORT || 9000, // set our port
     args = process.argv,
-    stubArg = ('true' === args[2]);
+    stubArg = ('true' === args[2]),
+    api = require('./api/api');
 
 // parses request body and populates request.body
 app.use(bodyParser.urlencoded({extended: true}));
@@ -38,25 +39,7 @@ router.route('/libraries')
     if (stubArg) { // if stub enabled
       return response.json(libraries);
     }
-
-    response.json([
-      {
-        name: 'HTML5 Boilerplate',
-        url: 'http://www.w3.org/TR/html5/'
-      },
-      {
-        name: 'jQuery',
-        url: 'http://jquery.com/'
-      },
-      {
-        name: 'Backbone.js',
-        url: 'http://backbonejs.org/'
-      },
-      {
-        name: 'Marionette.js',
-        url: 'http://marionettejs.com/'
-      }
-    ]);
+    response.json(api.libraries);
   });
 
 // all of our routes will be prefixed with /api

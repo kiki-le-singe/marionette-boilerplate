@@ -14,33 +14,5 @@
   {
     "name" : "Marionette.js",
     "url" : "http://marionettejs.com/"
-  },
-  {
-    "name" : "Lo-Dash",
-    "url" : "http://lodash.com/"
-  },
-  {
-    "name" : "Handlebars.js",
-    "url" : "http://handlebarsjs.com/"
-  },
-  {
-    "name" : "RequireJS",
-    "url" : "http://requirejs.org/"
-  },
-  {
-    "name" : "Express",
-    "url" : "https://www.npmjs.org/package/express"
-  },
-  {
-    "name" : "Mocha",
-    "url" : "http://visionmedia.github.io/mocha/"
-  },
-  {
-    "name" : "Sinon.JS",
-    "url" : "http://sinonjs.org/"
-  },
-  {
-    "name" : "chaijs",
-    "url" : "http://chaijs.com/"
   }
 ]
