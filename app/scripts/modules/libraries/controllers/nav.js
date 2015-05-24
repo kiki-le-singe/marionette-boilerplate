@@ -1,10 +1,10 @@
 define([
   'marionette',
-  '#libraries/models/libraries',
+  '#libraries/resource/libraries',
   '#libraries/views/librariesComposite'
 ],
 
-function (Marionette, LibrariesCollection, LibrariesCompositeView) {
+function (Marionette, librariesResource, LibrariesCompositeView) {
   'use strict';
 
   return Marionette.Controller.extend({
@@ -13,9 +13,14 @@ function (Marionette, LibrariesCollection, LibrariesCompositeView) {
     },
 
     libraries: function () {
-      return this.contentRegion.show(new LibrariesCompositeView({
-        collection: new LibrariesCollection()
-      }));
+      var self = this;
+      librariesResource(null).then(function (collection) {
+        // shows the libraries view.
+        var librariesCompositeView = new LibrariesCompositeView({
+          collection: collection
+        });
+        self.contentRegion.show(librariesCompositeView);
+      });
     }
   });
 });

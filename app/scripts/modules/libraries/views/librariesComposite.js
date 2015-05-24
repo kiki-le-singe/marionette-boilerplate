@@ -15,7 +15,6 @@ function (Marionette, LibraryItemView, templates) {
 
     initialize: function () {
       console.log('initialize: librariesCompositeView');
-      this.collection.fetch();
     },
 
     serializeData: function () {

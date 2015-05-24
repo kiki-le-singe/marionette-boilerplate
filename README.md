@@ -111,6 +111,7 @@ Coming soon...
  * [Lo-Dash V3](http://lodash.com/)
  * [Handlebars](http://handlebarsjs.com/)
  * [Modernizr](http://modernizr.com/)
+ * [BlueBird](https://github.com/petkaantonov/bluebird)
 
 ## CSS Framework
 

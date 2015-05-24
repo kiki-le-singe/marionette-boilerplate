@@ -50,5 +50,9 @@ exports.libraries = [
   {
     name: 'chaijs',
     url: 'http://chaijs.com/'
+  },
+  {
+    name: 'BlueBird',
+    url: 'https://github.com/petkaantonov/bluebird'
   }
 ];
