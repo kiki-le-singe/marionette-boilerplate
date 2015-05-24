@@ -18,8 +18,6 @@
  * [Mongodb](http://www.mongodb.org/)
   * [Install on Ubuntu](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
   * [Install on OS X](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
- * [Yeoman](http://yeoman.io/): **required by [generator-marionette](https://github.com/mrichard/generator-marionette)**
- * [generator-marionette](https://github.com/mrichard/generator-marionette): Allows the use of **yo** command to generate **routers**, **models**, **views** ...
 
 ## Installation
 
