@@ -38,9 +38,7 @@ Makes the same thing that the above command, except that the 'stub' option allow
 
 * `$ grunt test`
 
-Runs tests located in `/tests/js/spec`.
-
-> You can access tests in your browser, simply create a vhost.
+Coming soon...
 
 * `$ grunt dist`
 
@@ -75,7 +73,9 @@ Makes the same thing that the above command, except that the 'stub' option allow
 
 * `$ gulp test`
 
-Coming soon...
+Runs tests located in `/test/spec`.
+
+> You can to use the `karma run` command. It is useful for debug mode.
 
 * `$ gulp dist`
 
