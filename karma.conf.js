@@ -13,7 +13,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      {pattern: 'app/bower_components/jquery/dist/jquery.js', included: false},
+      {pattern: 'app/bower_components/backbone/backbone.js', included: false},
       {pattern: 'app/bower_components/lodash/lodash.js', included: false},
+      {pattern: 'app/bower_components/marionette/lib/core/backbone.marionette.js', included: false},
+      {pattern: 'app/bower_components/backbone.babysitter/lib/backbone.babysitter.js', included: false},
+      {pattern: 'app/bower_components/backbone.wreqr/lib/backbone.wreqr.js', included: false},
+      {pattern: 'app/bower_components/handlebars/handlebars.runtime.js', included: false},
+      {pattern: 'app/scripts/**/*.js', included: false},
       {pattern: 'app/scripts/helpers/**/*.js', included: false},
       {pattern: 'test/spec/**/*.spec.js', included: false},
 
