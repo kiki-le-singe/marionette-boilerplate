@@ -1,3 +1,12 @@
+<a name"1.12.0"></a>
+## 1.12.0 (2015-06-06)
+
+
+#### Features
+
+* **i18n:** add i18n helper ([3eccb181](https://github.com/kiki-le-singe/marionette-boilerplate/commit/3eccb181))
+
+
 <a name"1.10.0"></a>
 ## 1.10.0 (2015-05-24)
 
