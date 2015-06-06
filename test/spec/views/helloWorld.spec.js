@@ -1,13 +1,22 @@
 define([
-  'models/helloWorldModel',
-  'views/HelloWorldItemView',
-  'templates'
+  'models/helloWorld',
+  'views/helloWorld',
+  'templates',
+  'helpersHBS'
 ],
 
 function (HelloWorldModel, HelloWorldItemView, templates) {
   'use strict';
 
   describe('HelloWorldItemView', function () {
+
+    before(function () {
+      this.server = sinon.fakeServer.create();
+    });
+
+    after(function () {
+      this.server.restore();
+    });
 
     beforeEach(function () {
       this.model = new HelloWorldModel();
@@ -29,23 +38,15 @@ function (HelloWorldModel, HelloWorldItemView, templates) {
       });
 
       it('should have "hello-world" as className', function () {
-        this.view.className.should.be.equal('hello-world');
+        this.view.className.should.be.equal('hello-world row');
       });
     });
 
     describe('render', function () {
 
-      it('should render a div element with "hello-world" class name', sinon.test(function () {
+      it.only('should render a div element with "hello-world" class name', sinon.test(function () {
         var $el = this.view.render().$el;
         $el.should.have.class('hello-world');
-      }));
-
-      it('should contain some texts', sinon.test(function () {
-        var $el = this.view.render().$el;
-        $el.should.contain('CONGRATS!');
-        $el.should.contain('Welcome in my "Marionette Boilerplate" project !');
-        $el.should.contain('Play with this boilerplate and... Have fun!');
-        $el.should.contain('Enjoy coding!');
       }));
     });
   });
