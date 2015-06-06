@@ -22,7 +22,8 @@
     "requirejs-plugins": "~1.0.3",
     "handlebars": "~3.0.2",
     "foundation": "~5.5.2",
-    "foundation-icon-fonts": "*"
+    "foundation-icon-fonts": "*",
+    "backbone": "~1.2.1"
   },
   "devDependencies": {
     "mocha": "~2.1.0",
