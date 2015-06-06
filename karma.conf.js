@@ -27,6 +27,11 @@ module.exports = function(config) {
       'test/test-main.js'
     ],
 
+    // fix 404 warning for images. Works only if app is started (gulp serve).
+    proxies: {
+      '/images/': 'http://localhost:3000/images/'
+    },
+
     // list of files to exclude
     exclude: [
       'app/scripts/init.js'
