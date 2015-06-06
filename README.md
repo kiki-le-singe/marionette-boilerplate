@@ -75,7 +75,7 @@ Makes the same thing that the above command, except that the 'stub' option allow
 
 Runs tests located in `/test/spec`.
 
-> You can to use the `karma run` command. It is useful for debug mode.
+> You can to use the `karma start` command. It is useful for debug mode.
 
 * `$ gulp dist`
 
