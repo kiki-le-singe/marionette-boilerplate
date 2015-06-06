@@ -23,7 +23,8 @@
     "handlebars": "~3.0.2",
     "foundation": "~5.5.2",
     "foundation-icon-fonts": "*",
-    "backbone": "~1.2.1"
+    "backbone": "~1.2.1",
+    "underscore": "~1.8.3"
   },
   "devDependencies": {
     "mocha": "~2.1.0",
