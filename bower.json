@@ -1,6 +1,6 @@
 {
   "name": "My Boilerplate",
-  "version": "0.0.1",
+  "version": "1.12.3",
   "ignore": [
     "**/.*",
     "node_modules",
