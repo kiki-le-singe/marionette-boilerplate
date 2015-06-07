@@ -22,9 +22,7 @@
     "requirejs-plugins": "~1.0.3",
     "handlebars": "~3.0.2",
     "foundation": "~5.5.2",
-    "foundation-icon-fonts": "*",
-    "backbone": "~1.2.1",
-    "underscore": "~1.8.3"
+    "foundation-icon-fonts": "*"
   },
   "devDependencies": {
     "mocha": "~2.1.0",
@@ -34,5 +32,8 @@
     "chai-jquery": "~2.0.0",
     "bluebird": "~2.9.25"
   },
-  "directory": "bower_components"
+  "directory": "bower_components",
+  "resolutions": {
+    "underscore": "1.6.0"
+  }
 }
