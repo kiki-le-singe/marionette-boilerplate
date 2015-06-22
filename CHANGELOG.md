@@ -1,3 +1,12 @@
+<a name"1.13.0"></a>
+## 1.13.0 (2015-06-22)
+
+
+#### Features
+
+* **browser.sync:** watching js files ([778ff473](https://github.com/kiki-le-singe/marionette-boilerplate/commit/778ff473))
+
+
 <a name"1.12.0"></a>
 ## 1.12.0 (2015-06-06)
 
